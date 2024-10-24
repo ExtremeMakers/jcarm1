@@ -1,0 +1,34 @@
+= JC-ARM I Library by ExtremeMakers ==
+
+The JC-ARM I library, developed by ExtremeMakers, is a powerful tool for controlling the JC-ARM I robotic arm. This library is designed to offer precise and user-friendly control of the robotic arm, making it ideal for a wide range of applications.
+
+For more information about this library please visit us at
+http://www.extrememakers.net
+
+== Features of the Library ==
+
+The JC-ARM I library provides the following functionalities for controlling the robotic arm:
+begin(int servoVerticalPin, int servoHorizontalPin, int servoBasePin, int servoClawPin): Initializes the servos of the robotic arm with the specified pins.
+rotateBaseTo(int ang): Rotates the base of the robotic arm to a specified angle.
+grab(int ang): Controls the claw of the arm, allowing it to open and close at a specified angle.
+moveClawTo(double x, double y): Moves the claw to a specific position (x, y), calculating the necessary angles for the servos.
+
+== How to Use ==
+
+To use the JC-ARM I library, include the JCARMI.h file in your Arduino project and instantiate an object of the JCARMI class. Use the available methods to control the robotic arm as needed.
+
+== Support and Contributions ==
+
+For support, questions, or contributions, please contact ExtremeMakers through our website or support email.
+
+== License ==
+Copyright (c) ExtremeMakers.net All right reserved.
+
+This library is distributed under the Creative Commons Attribution License. You may use and modify this library, provided that appropriate credit is given to ExtremeMakers.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+== Credits ==
+Developed by ExtremeMakers.

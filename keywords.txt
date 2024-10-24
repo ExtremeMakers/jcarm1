@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For Keyboard
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+JCARMI	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+moveClawTo	KEYWORD2
+rotateBaseTo KEYWORD2
+grab KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
